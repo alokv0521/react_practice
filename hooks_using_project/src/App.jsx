@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
+import Card from '../component/card'
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
 
   return (
     <>
+    console.log("the app is working ");
+        
      <h1> working for the project{count} </h1>
      <button
      onClick={myfunction}
@@ -52,6 +55,9 @@ function App() {
      <button
      onClick={mydecfucntion}
      >remove value</button>
+
+     <H1>a new card component</H1>
+    <Card/>
     </>
   )
 }
