@@ -6,7 +6,9 @@ import viteLogo from '/vite.svg'
 
 function App() {
 
-  let value=15
+  // let value=15
+  let value =20
+ // here we are changing the value to 20 
 
   function increase(){
     value+=1;
